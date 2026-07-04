@@ -26,4 +26,6 @@ def fetch_website_contents(url):
         tag.decompose()
 
     text = soup.get_text(separator="\n", strip=True)
-    return f"Title: {title}\n\nPage contents:\n{text}"
+    
+    # Truncate to avoid token limit errors
+    return f"Title: {title}\n\nPage contents:\n{text[:5000]}"
