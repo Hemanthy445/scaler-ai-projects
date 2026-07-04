@@ -2,7 +2,7 @@ import gradio as gr
 from arena import battle
 
 with gr.Blocks(title="LLM Arena") as app:
-    gr.Markdown("# ⚔️ LLM Arena — GPT-OSS vs Llama")
+    gr.Markdown("# ⚔️ LLM Arena — GPT-OSS 120B vs Llama 3.1 8B")
     gr.Markdown("Ask anything. Two models answer. You vote on who did better.")
 
     with gr.Row():
@@ -23,7 +23,7 @@ with gr.Blocks(title="LLM Arena") as app:
         with gr.Column():
             gr.Markdown("### ⚡ Llama 3.1 8B (Fast)")
             output_b = gr.Markdown()
-            vote_b = gr.Button("👍 Llama wins")
+            vote_b = gr.Button("👍 Llama 3.1 8B wins")
 
     verdict = gr.Markdown()
 
