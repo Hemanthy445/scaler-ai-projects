@@ -219,3 +219,6 @@ __marimo__/
 .DS_Store
 .vscode/
 .gradio/
+.DS_Store
+.gradio/
+.vscode/
