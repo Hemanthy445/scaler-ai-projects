@@ -10,32 +10,32 @@ Enter any website URL and get an AI-generated summary powered by Llama 3.3 70B v
 ## Setup
 
 ### 1. Clone the repo
-\`\`\`bash
+```bash
 git clone https://github.com/Hemanthy445/scaler-ai-projects.git
 cd scaler-ai-projects/ai-website-summarizer
-\`\`\`
+```
 
 ### 2. Create virtual environment
-\`\`\`bash
+```bash
 python -m venv venv
 source venv/bin/activate
-\`\`\`
+```
 
 ### 3. Install dependencies
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 ### 4. Get a free Groq API key
 Sign up at https://console.groq.com and create an API key.
 
 ### 5. Create .env file
-\`\`\`bash
+```bash
 echo "GROQ_API_KEY=your-key-here" > .env
-\`\`\`
+```
 
 ### 6. Run
-\`\`\`bash
+```bash
 python app.py
-\`\`\`
+```
 Open http://127.0.0.1:7860 in your browser.
