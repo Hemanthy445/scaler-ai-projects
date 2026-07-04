@@ -15,32 +15,32 @@ Inspired by LMSYS Chatbot Arena.
 ## Setup
 
 ### 1. Clone the repo
-\`\`\`bash
+```bash
 git clone https://github.com/Hemanthy445/scaler-ai-projects.git
 cd scaler-ai-projects/llm-arena
-\`\`\`
+```
 
 ### 2. Create virtual environment
-\`\`\`bash
+```bash
 python -m venv venv
 source venv/bin/activate
-\`\`\`
+```
 
 ### 3. Install dependencies
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 ### 4. Get a free Groq API key
 Sign up at https://console.groq.com — same key works for both models.
 
 ### 5. Create .env file
-\`\`\`bash
+```bash
 echo "GROQ_API_KEY=your-key-here" > .env
-\`\`\`
+```
 
 ### 6. Run
-\`\`\`bash
+```bash
 python arena_app.py
-\`\`\`
+```
 Open http://127.0.0.1:7860 in your browser.
