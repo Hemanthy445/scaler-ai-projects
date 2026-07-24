@@ -15,4 +15,4 @@ Send the same prompt to two LLMs and vote on which answered better.
 - **Folder:** `llm-arena/`
 
 ## Author
-Hemanthy Yandra — [GitHub](https://github.com/Hemanthy445)
+Hemanthy Yandra — [GitHub](https://github.com/HemanthYandra)
